@@ -1,0 +1,2 @@
+O código gera esse resultado pois o JavaScript realizou uma conversão implícita do tipo dos dados para ambos valores serem strings, um tipo comum entre os dois, devido aos valores terem tipos de dados diferentes. Dessa forma, ocorreu uma concatenação de strings, gerando o valor "55".
+Para o código ser executado corretamente, a variável num2 poderia ser declarada simplesmente com o número 5, poderia ser declarada como Number("5"), convertendo a string para número, ou na chamada da função soma, poderia ser feito a conversão do valor da varíavel: soma(num1, Number(num2)).

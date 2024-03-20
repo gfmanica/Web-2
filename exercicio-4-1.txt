@@ -1,0 +1,2 @@
+1º erro: O erro ocorre devido ao fato da variável v3 ter sido declarada somente dentro de um bloco (instrução condicional), e portanto, não pode ser utilizada fora desse bloco, pois sua utilização é limitada àquele bloco.
+2º erro: O erro ocorre pois não é possível reatribuir o valor dado a uma variável cujo valor não pode ser reatribuído (const).
