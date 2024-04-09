@@ -2,10 +2,8 @@
 
 import { signIn } from 'next-auth/react';
 
-export default function HomePage() {
+export default function SignInPage() {
   return (
-    <>
-      <button onClick={() => signIn('google')}>google</button>
-    </>
+    <button onClick={() => signIn('google', { redirect: true })}>google</button>
   );
 }
